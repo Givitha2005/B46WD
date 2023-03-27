@@ -1,0 +1,36 @@
+//1.Write a blog on Difference between HTTP1.1 vs HTTP2
+
+Http1.1 :
+Http is Hypher Text Transfer Prtotocol.The first version on http is http/1.1.
+1.Http1.1 lacks in the prioritization of which the order of the content loads in the webpage.
+2.It loads the resources one after other so if any of the resources cannot be loaded it blocks the whole webpage
+3.The server only serves the content only when the client asks.
+
+Http2:
+Http2 was the updated version after http1.1 launched on 2015.
+1.Http2 resolves the prioritization issue.It uses weighed prioritization.So it allows to decide which resources in webpage to load first.
+2.It sends several streams of data at client at one once instead of sending one after another.
+It uses single TCP connection to send the streams of sata at once so that no resources will be blocking.
+3.The server pushes the content before the client asks. 
+
+//2.Write a blog about objects and its internal representation in Javascript
+1.Objects is also a variable but it contains multiple values.
+2.The objects are written in key value pairs and seperated by colon(key:value).
+Eg:
+var car = {
+    name:"BMW",
+    fuel:"Diesel",
+    color:"Grey"
+}
+
+To add a new element:
+Objectname.Objectproperty = Objectvalue
+
+To delete an element:
+delete ObjectName.Objectproperty
+
+To acces and element:
+ObjectName.Objectproperty / objectname["objectproperty"]/objectname[expression]
+
+
+
