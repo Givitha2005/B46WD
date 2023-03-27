@@ -1,0 +1,13 @@
+//1.Diffeence between Document and Window ObjectName
+
+Window Object :
+1. It is the top and outermost element of the object hierarchy.
+2.It represents the window tab containing a DOM Document
+
+Document Object:
+1.When a webpage is loaded it creates the DOM of the page.It represents whole html document as a tree
+2.It is a property of window object that points to the DOM document loaded in that window.
+3.It is the root element that represent the html document
+4.Each HTML element that gets loaded in the window is called document
+5.Using document object, JavaScript can modify, add and delete the HTML elements, attributes CSS styles in the page
+6.Can access the window property either by window.document od document directly
